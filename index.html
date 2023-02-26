@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Fill The Form</title>
+        <style>
+            
+            .fill{font-family:showcard gothic;font-size:30px;text-align:center;text-shadow:4px 3px white}
+            table{font-size:25px;background-color:lightgreen;font-weight:bold}
+            select{font-size:20px}
+            .intro{font-family:matura MT script capitals;font-size:35px;text-align:center;border-style:dashed;background-color:lightblue}
+            #i{font-size:20px;font-family:arial black}
+            #sub{font-size:25px;font-weight:bold;background-color:lightpink;font-family:stencil}
+            .dis{font-family:magneto;font-size:30px;text-decoration:underline}
+            .list{font-family:forte;font-size:25px}
+            .logo{float:right;width:100px;height:100px;position:sticky;top:0;right:0;border-radius:50%}
+            
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="logo"><img src="https://i.pinimg.com/564x/98/dd/d9/98ddd9771ee9636d8105c50bd0014350.jpg" width="60" height="50" style="float:right;border-radius:100%"></div>
+        <div class="intro">Introduction About The Website</div>
+        <div id="i">This Website is all about Exploring India...Exploring different places In India..In this website you will be able to explore 5 places from around the corner of India..<br>
+            The 5 Places You Can Explore are as follows:
+            <ol type="1">
+                <li>Manali</li>
+                <li>Shimla</li>
+                <li>Kodaikanal</li>
+                <li>Munnar</li>
+                <li>Darjeeling</li>
+            </ol>
+        </div>
+        <div class="dis">Description of how to use this web page..</div>
+        <div class="list">
+            <ul>
+                <li>Move down and fill the form..and click the submit button at the end to access the web page.</li>
+                <li>Now you will be able to see the Web page..</li>
+                <li>At the Left Side of Page, we have list of places..</li>
+                <li>Click on Each Place of list(ex:Manali) and Keep Enjoying it's description in the main frame</li>
+                <li>In Each Web Page keep hovering the images and headlines and some highlighted text to enjoy transformations..</li>
+            </ul>
+        </div>
+    
+    <form style="background-color:plum" name="form1">
+        <fieldset>
+            <legend align="center">
+                <div class="fill">*Fill The Form*</div><br>
+            </legend>
+        
+        <table align="center" cellpadding="10px" cellspacing="5px">
+            <tr>
+                <td>First Name</td>
+                <td>:</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>:</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td>:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>:</td>
+                <td><input type="number" name="mobile"></td>
+            </tr>
+            <tr>
+                <td>Email Id</td>
+                <td>:</td>
+                <td><input type="mail" name="email">@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Select State</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <optgroup label="State">
+                        <option>Select</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chandigarh</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jammu & Kashmir</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttarakhand</option>
+                        <option>Uttar Pradesh</option>
+                        <option>West Bengal</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Place You Want To Travel</td>
+                <td>:</td>
+                <td><textarea placeholder="Enter Place Here"></textarea></td>
+            </tr>
+            <tr>
+                <td>Do You Love Travelling?</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="gen" value="y">Yes
+                    <input type="radio" name="gen" value="n">No
+                </td>
+            </tr>
+            <tr>
+                <td>Which Season Do You Prefer <br>To Travel?</td>
+                <td>:</td>
+                <td>
+                    <input type="Checkbox" name="s">Summer
+                    <input type="checkbox" name="w">Winter
+                    <input type="checkbox" name="r">Rainy
+                </td>
+            
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset"></td>
+                <td><a href="MainFrame.html"><input type="button" value="Submit" id="sub"></a></td>
+            </tr>
+           
+        </table><br>
+        
+        
+        
+        </fieldset>
+    </form>
+    </body>
+</html>
